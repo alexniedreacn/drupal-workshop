@@ -1,0 +1,14 @@
+global:
+  version: VERSION
+  css:
+    base:
+      'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic': { type: external, minified: true }
+      css/style.css: {}
+      css/print.css: { media: print }
+  js:
+    js/modernizr.js: {}
+    js/vendor.min.js: {}
+    js/scripts.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

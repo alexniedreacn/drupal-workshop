@@ -1,0 +1,7 @@
+<?php
+
+function workshop_preprocess_page(&$variables) {
+  if ($variables['is_front']) {
+    $variables['#attached']['library'][] = 'workshop/fancy-effect';
+  }
+}
